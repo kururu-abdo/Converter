@@ -4,10 +4,10 @@ public class State {
     int minutes;
     int degs;
     double seconds;
-    public State(  int minutes , int degs, double sec){
-        this.seconds = seconds;
+    public State(  int mins, int degs, double sec){
+        this.seconds = sec;
         this.degs = degs;
-        this.minutes = minutes;
+        this.minutes = mins;
     }
 
     public double getSeconds() {
